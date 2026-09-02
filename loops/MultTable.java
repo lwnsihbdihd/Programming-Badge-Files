@@ -10,19 +10,27 @@ public class MultTable {
     public static void main(String[] args) {
         // 1. We will begin by choosing the first number to multiply. Create a variable with a number from 1 to 10. 
         // ---- BEGIN CODE ----
-
+        
+        // int firstNum = 4;
+        
         // ---- END CODE ----
 
 
         // 2. Print the variable doubled (ie. "__ x 2 = __") 
         // ---- BEGIN CODE ----
 
+        // System.out.println(firstNum + "x 2 = " + firstNum * 2);
+        
         // ---- END CODE ----
 
 
         // 3. Now do this for tripled, quadrupled, so on, until "__ x 10 = __"
         // ---- BEGIN CODE ----
-
+        for(int i = 1; i < 11; i++) {
+            for(int j = 1; j < 11; j++) {
+                System.out.println(j + " x " + i + " = " + j * i);
+            }
+        }
         // ---- END CODE ----
 
 

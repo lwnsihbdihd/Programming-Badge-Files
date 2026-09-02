@@ -27,7 +27,7 @@ public class Intro {
         //
         // ---- BEGIN CODE ----
 
-        System.out.println("[Put your name here]"); 
+        System.out.println("Harvey Jiang"); 
 
         // ---- END CODE ----
 
@@ -47,11 +47,12 @@ public class Intro {
         //
         // ---- BEGIN CODE ----
 
-        String name = "Bob";  
-        int age = 16; 
+        String name = "Harvey";  
+        int age = 15;
 
         // TODO: print out your introduction
 
+        System.out.println("Hi! My name is " + name + "and I am " + age + "years old.");
 
         // ---- END CODE ----
 
@@ -87,9 +88,9 @@ public class Intro {
         // The scaffold code below is commented out. Make sure to uncomment it. 
         // ---- BEGIN CODE ----
 
-        // if (/* Write your condition here */) {
-        //     // Write your conditional code here
-        // }
+         if(age == 18){
+            System.out.println("I am an adult now.");
+         }
 
         // ---- END CODE ----
 
@@ -104,7 +105,12 @@ public class Intro {
         //
         // ---- BEGIN CODE ----
 
-
+        if (age >= 21) {
+            System.out.println("I can drink!");
+        }
+        else {
+            System.out.println("I can't drink.");
+        }
 
         // ---- END CODE ----
 

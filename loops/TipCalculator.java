@@ -13,8 +13,8 @@ public class TipCalculator {
         // 1. Define variables for the meal cost and tip percentage.
         // ---- BEGIN CODE ----
 
-        // double cost = __;
-        // double tipPercent = __;  
+        double cost = 9.99;
+        double tipPercent = 0.1;  
 
         // ---- END CODE ----
 
@@ -22,7 +22,7 @@ public class TipCalculator {
         // 2. Calculate the amount of the tip.
         // ---- BEGIN CODE ----
 
-        // double tipAmount = __; 
+        double tipAmount = cost * tipPercent; 
 
         // ---- END CODE ----
 
@@ -30,7 +30,7 @@ public class TipCalculator {
         // 3. Calculate the total cost.
         // ---- BEGIN CODE ----
 
-        // double totalCost = __; 
+        double totalCost = cost + tipAmount; 
 
         // ---- END CODE ----
 
@@ -38,7 +38,7 @@ public class TipCalculator {
         // 4. Print the meal cost, tip, and total.
         // ---- BEGIN CODE ----
 
-        // System.out.println("Meal cost: " + __ + "\n Tip: " + __ + "\n Total: " + __); 
+        System.out.println("Meal cost: " + cost + "\n Tip: " + tipAmount + "\n Total: " + totalCost); 
 
         // ---- END CODE ----
 
